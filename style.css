@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/*!------- Utilities---------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0px 120px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+/*!-------Nav Area---------*/
+header .nav-field{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.logo .logo-text{ 
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.navigation li:hover{
+    transform: scale(1.3);
+}
+
+.navigation li a{
+    color: #3A3A3A;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.navigation li a:hover{
+    color: #E02C6D;
+    
+}
+
+
+/*!-------Top Banner---------*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.banner .left-banner .banner-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.banner .left-banner p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.button-area .button{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #E02C6D;
+    width: 200px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: margin-left 0.5s  ease-in;
+}
+
+.banner .left-banner .button-area .button:hover{
+    margin-left: 50px;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.right-banner img{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.right-banner{
+    background: url(./images/Circle\ design.svg);
+    background-position: 120px 0px;
+    background-repeat: no-repeat;
+}
+
+/*!------ Company logo------ */
+.logo-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+} 
+
+.logo img{
+    margin-right: 50px;
+    width: 70%;
+}
+
+
+/*!------ product grid------ */
+.collections-area{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.collections-area .section-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.collection-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+.collection-cards .collection{
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px lightgrey;   
+}
+
+.collection-cards .collection .collection-image img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.collection-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.collection-price{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.collection-rating{
+    margin-bottom: 5px;
+}
+
+.fa-star,.fa-star-half-alt{
+    color: #FB8200;
+    font-size: 14px;
+}
+
+.rating{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.card-info-Details{
+    color: #787885;
+    font-size: 14px;
+}
+
+.more-button{
+    margin-top: 40px;
+    text-align: right;
+}
+
+.more-button a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+ /*!------- Contact Section------- */
+.contact-section{
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+
+.section-header{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 80px;   
+}
+
+#header-color{
+    color: #E02C6D;
+}
+
+#button-center a{
+    margin: 0 auto;
+}
+
+.contact .contact-form{
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+}
+.contact .contact-form .input-style{
+    width: 230px;
+    height: 50px;
+    padding: 10px 30px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+.contact .contact-form textarea{
+    width: 550px;
+    height: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px lightgray;
+    border: none;
+    outline: none;
+}
+.contact .contact-form button{
+    text-align: right;
+}
+
+.contact .contact-info .contact-box{
+    margin-top: 85px;
+    width: 450px;
+    padding: 40px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px lightgray;
+    border-left: 6px solid #E02C6D;
+}
+
+.contact .contact-info .contact-box .writing h2{
+    color: #3E3E3E;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*!------ Footer Section ---------*/
+
+.footer-area{
+    width: 100%;
+    height: 250px;
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-area .footer-content .footer-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-area .footer-content .footer-text{
+    margin:5px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.footer-icon{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer-icon i{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.150);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+/*!----- responsive for mobile------*/
+@media(max-width: 688px){
+    header .nav-field{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation{
+        display: block;
+        align-items: center;
+    }
+
+    .navigation li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .banner{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        width: fit-content;
+    }
+
+    .banner .left-banner{
+        width: 100%;
+    }
+
+    .button-area .button{
+        margin: 20px auto;
+    }
+
+    .banner .left-banner .banner-title{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .banner .left-banner p{
+        text-align: center;
+    }
+
+    .banner .right-banner{
+        display: block;
+        width: 100%;
+        margin: 70px auto;
+        background-position: center;
+    }
+
+    .right-banner img{
+        display: inline-block;
+        margin-left: 120px;
+    }
+
+
+    .company-logo{
+        /* display: none; */
+        width: 600px;
+        margin: auto;
+    }
+
+    #button-center a{
+        margin-left: 230px;
+    }
+
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact{
+        display: block;
+    }
+
+    .contact .contact-info .contact-box{
+        width: 400px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+
+    .contact .contact-form .input-style{
+        margin-left: 180px;
+    }
+
+    .contact .contact-form textarea{
+        width: 400px;
+        margin-left: 100px;  
+    }
+
+    .collection-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .footer-area{
+        width: 100%;
+
+    }
+
+}
+ /*!----- Media query for tab ------*/
+@media(min-width: 668px) and (max-width: 992px){
+    header .nav-field{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation{
+        display: block;
+        align-items: center;
+    }
+
+    .navigation li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .banner{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        width: fit-content;
+    }
+
+    .banner .left-banner{
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    .button-area .button{
+        margin: 20px auto;
+    }
+
+    .banner .left-banner .banner-title{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .banner .left-banner p{
+        text-align: center;
+        width: 800px;
+    }
+
+    .banner .right-banner{
+        display: block;
+        width: 100%;
+        margin: 70px auto;
+        background-position: center;
+    }
+
+    .right-banner img{
+        display: inline-block;
+        margin-left: 240px;
+    }
+
+    .logo-area{
+        margin-left: 100px;
+    }
+
+    .collection-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contact{
+        display: block;
+    }
+
+    .contact .contact-info .contact-box{
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+
+    .contact .contact-form .input-style{
+        margin-left: 180px;
+    }
+
+    .contact .contact-form textarea{
+      margin-left: 40px;  
+    }
+
+    .footer-area{
+        width: 100%;
+    }
+
+
+}
